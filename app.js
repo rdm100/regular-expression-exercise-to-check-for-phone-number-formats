@@ -8,7 +8,7 @@ HINT: You can use the keyup event to respond to entered text. There is a CSS Cla
 
 
 let phone = document.querySelector('#phone');
-let regPhone = /\(?\d{3}\)?[-.]?\d{3}[-.]?\d{4}$/;
+let regPhone = /^\(?\d{3}\)?[-.]?\d{3}[-.]?\d{4}$/;
 
 // phone.addEventListener("keyup", function() {
 //     if (phone.value.match(regPhone)) {
